@@ -70,12 +70,12 @@
     </transmission>
   </xacro:macro>
 
-  <xacro:wheel prefix="left">
+  <!-- <xacro:wheel prefix="left">
     <origin xyz="${wheel_x_offset} ${wheelbase+wheel_width/2} ${wheel_z_offset}" rpy="0 0 0" />
   </xacro:wheel>
   <xacro:wheel prefix="right">
     <origin xyz="${wheel_x_offset} ${-wheelbase-wheel_width/2} ${wheel_z_offset}" rpy="0 0 0" />
-  </xacro:wheel>
+  </xacro:wheel> -->
 
   <link name="rear_caster">
     <visual>
